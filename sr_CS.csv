@@ -1,0 +1,34 @@
+"Read Details","Pročitaj detalje",module,Magento_AdminNotification
+"Mark as Read","Označi kao pročitano",module,Magento_AdminNotification
+"Are you sure?","Da li ste sigurni?",module,Magento_AdminNotification
+Remove,Ukloni,module,Magento_AdminNotification
+"Messages Inbox",Sanduče,module,Magento_AdminNotification
+"You have %1 new system messages","Imate %1 novih sistemskih poruka",module,Magento_AdminNotification
+"You have %1 new system message","Imate %1 novu sistemskiu poruku",module,Magento_AdminNotification
+"Incoming Message","Dolazeća poruka",module,Magento_AdminNotification
+close,zatvori,module,Magento_AdminNotification
+Notifications,Obaveštenja,module,Magento_AdminNotification
+"The message has been marked as Read.","Poruka je označena kao pročitana.",module,Magento_AdminNotification
+"Please select messages.","Molimo odaberite poruke.",module,Magento_AdminNotification
+"The message has been removed.","Poruka je uklonjena.",module,Magento_AdminNotification
+"1 Hour","1 sat",module,Magento_AdminNotification
+"2 Hours","2 sata",module,Magento_AdminNotification
+"6 Hours","6 sati",module,Magento_AdminNotification
+"12 Hours","12 sati",module,Magento_AdminNotification
+"24 Hours","24 sata",module,Magento_AdminNotification
+critical,kritično,module,Magento_AdminNotification
+major,glavni,module,Magento_AdminNotification
+minor,manji,module,Magento_AdminNotification
+notice,napomena,module,Magento_AdminNotification
+"Wrong message type","Pogrešna poruka",module,Magento_AdminNotification
+"System Messages:","Sistemske poruke:",module,Magento_AdminNotification
+"Critical System Messages","Kritične sistemske prouke",module,Magento_AdminNotification
+"System messages","Sistemske poruke",module,Magento_AdminNotification
+Close,Zatvori,module,Magento_AdminNotification
+"See All (","Pogledaj Sve (",module,Magento_AdminNotification
+Password:,Lozinka:,theme,frontend/Magento/luma
+"Show List","Prikaži listu",module,Magento_AdminNotification
+"Last Update","Poslednja promena",module,Magento_AdminNotification
+"Date Added","Datum Dodavanja",module,Magento_AdminNotification
+Message,Poruka,module,Magento_AdminNotification
+Actions,Radnje,module,Magento_AdminNotification
