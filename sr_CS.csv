@@ -26,9 +26,24 @@ notice,napomena,module,Magento_AdminNotification
 "System messages","Sistemske poruke",module,Magento_AdminNotification
 Close,Zatvori,module,Magento_AdminNotification
 "See All (","Pogledaj Sve (",module,Magento_AdminNotification
+Previous,Prethodni,theme,frontend/Magento/luma
+Remove,Ukloni,theme,frontend/Magento/luma
+"Remove This Item","Ukloni ovu stavku",theme,frontend/Magento/luma
+"Clear All","Očisti sve",theme,frontend/Magento/luma
+Email:,E-pošta:,theme,frontend/Magento/luma
 Password:,Lozinka:,theme,frontend/Magento/luma
+"Password you set when creating account","Lozinka koju ste postavili prilikom kreiranja naloga",theme,frontend/Magento/luma
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Zaboravili ste lozinku svog naloga? Kliknite <a href=""%reset_url""> ovde</a> da biste poništili to.",theme,frontend/Magento/luma
+"Order Status","Status porudžbine",theme,frontend/Magento/luma
+"Order History","Istorija porudžbine",theme,frontend/Magento/luma
+"View past orders","Vidi sve porudžbine",theme,frontend/Magento/luma
+Footer,Podnožje,theme,frontend/Magento/luma
+"About Us","O nama",theme,frontend/Magento/luma
+"Customer Service","Korisnički servis",theme,frontend/Magento/luma
 "Show List","Prikaži listu",module,Magento_AdminNotification
 "Last Update","Poslednja promena",module,Magento_AdminNotification
 "Date Added","Datum Dodavanja",module,Magento_AdminNotification
 Message,Poruka,module,Magento_AdminNotification
 Actions,Radnje,module,Magento_AdminNotification
+"Address Book",Adresar,theme,frontend/Magento/luma
+"Account Information","Informacije o nalogu",theme,frontend/Magento/luma
