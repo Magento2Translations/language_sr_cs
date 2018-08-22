@@ -28,7 +28,7 @@ notice,napomena,module,Magento_AdminNotification
 "Wrong notification ID specified.","Pogrešno navedena ID oznaka.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} se ne preporučuje za korišćenje u proizvodnom okruženju za opis osnovnog Nesigurnog URL/ Sigurnosnog URL. Zbog toga se preporučuje promena ove vrednosti u vaš Magento <a href=""%1"">konfiguraciju</a>.",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Idite na <a href=""%1"">za upravljanje kešom</a> i osvežite tipove keša.",module,Magento_AdminNotification
-"We were unable to synchronize one or more media files. Please refer to the log file for details.","Nije bilo moguće da sinhronizovati jednu ili više medijskih datoteka. Pogledajte dnevnik evidencije za detalje.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","Nije bilo moguće sinhronizovati jednu ili više medijskih datoteka. Pogledajte dnevnik evidencije za detalje.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Sinhronizacija skladišta medija je dovršeno.",module,Magento_AdminNotification
 "Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Vaš web server je neispravno podešen i omogućava neovlašćeni pristup osetljivim datotekama. Molimo vas da kontaktirate vašeg provajdera.",module,Magento_AdminNotification
 "System Messages:","Sistemske poruke:",module,Magento_AdminNotification
@@ -44,7 +44,6 @@ Close,Zatvori,module,Magento_AdminNotification
 "You created the order.","Vi ste kreirali narudžbinu.",module,Magento_Authorizenet
 "Order saving error: %1","Redosled čuvanja greške: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Odaberite način plaćanja.",module,Magento_Authorizenet
-"An error occurred on the server. Please try to place the order again.","Došlo je do greške na serveru. Pokušajte da ponovo pošaljete porudžbinu.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Kreditna kartica: xxxx-%1",module,Magento_Authorizenet
 "amount %1","iznos %1",module,Magento_Authorizenet
 failed.,"nije uspelo.",module,Magento_Authorizenet
@@ -70,7 +69,6 @@ void,poništi,module,Magento_Authorizenet
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transakcija %1 je odbijena/poništena. Status transakcije je ""%2"". Vrednost je %3.",module,Magento_Authorizenet
 "Authorize Only","Samo odobriti",module,Magento_Authorizenet
 "Authorize and Capture","Odobriti i prihvatiti",module,Magento_Authorizenet
-"Unable to get transaction details. Try again later.","Nije moguće dobiti detalje o transakciji. Pokuštajte ponovo kasnije.",module,Magento_Authorizenet
 "Electronic payments save the trees.","Elektronsko plaćanje ćuva drveće.",module,Magento_Authorizenet
 "Credit Card Type","Tip kreditne kartice",module,Magento_Authorizenet
 "Please Select","Molim odaberite",module,Magento_Authorizenet
@@ -213,7 +211,6 @@ To,Do,module,Magento_Backend
 "Invalid export type supplied for grid export block","Nevažeći tip izvoza obezbeđen za izvoza bloka",module,Magento_Backend
 Export,Izvezi,module,Magento_Backend
 "Please correct the column format and try again.","Ispravite oblik kolone i pokušajte ponovo.",module,Magento_Backend
-"Please select items.","Izaberite stavke.",module,Magento_Backend
 Submit,Pošalji,module,Magento_Backend
 "Unknown block type","Nepoznati tip bloka",module,Magento_Backend
 "Please correct the tab configuration and try again. Tab Id should be not empty","Molim vas ispravite konfiguraciju kartice i pokušajte ponovo. Id kartice ne sme biti prazan",module,Magento_Backend
@@ -284,13 +281,8 @@ System,Sistem,module,Magento_Backend
 YTD,"GODINA DO DATUMA",module,Magento_Backend
 2YTD,"2 godine do datuma",module,Magento_Backend
 "Authentication storage is incorrect.","Potvrda identiteta za skladište je neispravana.",module,Magento_Backend
-"You did not sign in correctly or your account is temporarily disabled.","Niste se pravilno prijavili ili je vaš nalog privremeno onemogućen.",module,Magento_Backend
-"Authentication error occurred.","Došlo je do greške pri potvrdi identiteta.",module,Magento_Backend
-"Admin session lifetime must be less than or equal to 31536000 seconds (one year)","Vreme trajanja sesije za admin-a mora biti manje ili jednako 31536000 sekundi (1 godina)",module,Magento_Backend
-"Admin session lifetime must be greater than or equal to 60 seconds","Vreme trajanja sesije za admin-a mora biti veća ili jednako 60 sekundi",module,Magento_Backend
 Order,Porudžbina,module,Magento_Backend
 "Order #%1","Porudžbina %1 #",module,Magento_Backend
-"You need more permissions to access this.","Potrebne su vam više dozvole za pristup ovom.",module,Magento_Backend
 "Welcome, please sign in","Dobro došli, molim vas da se prijavite u",module,Magento_Backend
 Username,"Korisničko ime",module,Magento_Backend
 "user name","korisničko ime",module,Magento_Backend
@@ -424,7 +416,6 @@ Country,Država,module,Magento_Braintree
 Authorize,Odobri,module,Magento_Braintree
 "Authorize and Capture","Odobriti i prihvatiti",module,Magento_Braintree
 "--Please Select--","--Molimo izaberite--",module,Magento_Braintree
-"Please agree to all the terms and conditions before placing the order.","Molimo pristanite na sa pravila i uslove pre narudžbine.",module,Magento_Braintree
 "Credit Card Type","Vrsta kreditne kartice",module,Magento_Braintree
 "Credit Card Number","Broj kreditne kartice",module,Magento_Braintree
 "Please, enter valid Credit Card Number","Molimo unesite važeći broj kreditne kartice",module,Magento_Braintree
@@ -452,18 +443,9 @@ Price,Cena,module,Magento_Bundle
 Delete,Obrisati,module,Magento_Bundle
 "Use Default Value","Koristite podrazumevane vrednosti",module,Magento_Bundle
 "There is no defined renderer for ""%1"" option type.","Nema definisanih pruženih usluga za opciju tipa „%1”.",module,Magento_Bundle
-"Only implemented for bundle product","Primenljivo je samo za paket proizvoda",module,Magento_Bundle
-"Product with specified sku: ""%1"" is not a bundle product","Proizvod sa određenom šifrom ""%1"" nije proizvod u paketu",module,Magento_Bundle
-"Bundle product could not contain another composite product","Paket proizvod ne sadrži drugi složen proizvod",module,Magento_Bundle
-"Id field of product link is required","Id polje link proizvoda je obavezan",module,Magento_Bundle
-"Can not find product link with id ""%1""","Ne može se pronaći link sa id ''%1''",module,Magento_Bundle
 "Could not save child: ""%1""","Ne može se sačuvati veza: ""%1""",module,Magento_Bundle
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Proizvod sa navedenom šifrom: „%1” ne sadrži opciju: „%2”",module,Magento_Bundle
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Dete sa navedenom šifrom: ""%1"" je već dodeljen proizvodu: ""%2""",module,Magento_Bundle
-"Product with specified sku: %1 is not a bundle product","Proizvod sa navedenom šifrom ""%1"" nije paket prozvod",module,Magento_Bundle
-"%fieldName is a required field.","%field naziv je obavezno polje.",module,Magento_Bundle
-"Cannot delete option with id %1","Nije moguće izbrisati opciju sa id %1",module,Magento_Bundle
-"Could not save option","Ne može sačuvati opciju",module,Magento_Bundle
 "Price Range","Cenovni rang",module,Magento_Bundle
 "As Low as",Sniženje,module,Magento_Bundle
 Together,Zajedno,module,Magento_Bundle
@@ -537,10 +519,8 @@ Always,Uvek,module,Magento_Captcha
 "Incorrect CAPTCHA","Neispravna CAPTCHA",module,Magento_Captcha
 "Incorrect CAPTCHA.","Neispravna CAPTCHA.",module,Magento_Captcha
 "The account is locked. Please wait and try again or contact %1.","Ovaj nalog je zaključan. Molimo sačekajte i pokušajte ponovo ili spojite %1.",module,Magento_Captcha
-"Please enter the letters from the image","Molimo unesite slova sa slike",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Pažnja</strong>: Captcha je osetljiva na mala i velika slova.",module,Magento_Captcha
 "Reload captcha","Osveži captcha kod",module,Magento_Captcha
-"Please type the letters below","Otkucajte slova ispod",module,Magento_Captcha
 Root,Početak,module,Magento_Catalog
 Delete,Obriši,module,Magento_Catalog
 Save,Sačuvaj,module,Magento_Catalog
@@ -592,7 +572,6 @@ Scope,Opseg,module,Magento_Catalog
 "Visible in Advanced Search","Vidljivo u naprednoj pretrazi",module,Magento_Catalog
 "Comparable on Storefront","Uporedivo na izlogu prodavnice",module,Magento_Catalog
 "Use for Promo Rule Conditions","Koristi za uslove Promo pravila",module,Magento_Catalog
-"Enable WYSIWYG","Omogućiti – WYSIWYG",module,Magento_Catalog
 "Allow HTML Tags on Storefront","Dozvoli HTML oznake na izlogu",module,Magento_Catalog
 "Visible on Catalog Pages on Storefront","Vidljivo na stranicama izlog kataloga",module,Magento_Catalog
 "Used in Product Listing","Koristi se u listingu proizvoda",module,Magento_Catalog
@@ -717,7 +696,6 @@ Categories,Kategorije,module,Magento_Catalog
 "Category is not available for requested store.","Kategorija nije dostupna za traženu prodavnicu.",module,Magento_Catalog
 "There was a category move error.","Došlo je do greške pri pomeranju kategorije.",module,Magento_Catalog
 "You moved the category.","Premestili ste kategoriju.",module,Magento_Catalog
-"Attribute ""%1"" is required.","Atribut ""%1"" je obavezan.",module,Magento_Catalog
 "You saved the category.","Sačuvali ste kategoriju.",module,Magento_Catalog
 "Something went wrong while saving the category.","Došlo je do greške prilikom snimanja kategorije.",module,Magento_Catalog
 "Please select products for attributes update.","Odaberite proizvode za ažuriranje atributa.",module,Magento_Catalog
@@ -725,7 +703,6 @@ Categories,Kategorije,module,Magento_Catalog
 "A total of %1 record(s) were updated.","Ukupno %1 zapis(a) je ažurirano.",module,Magento_Catalog
 "Something went wrong while updating the product(s) attributes.","Došlo je do greške prilikom ažuriranja atributa proizvod(a).",module,Magento_Catalog
 "Unable to add attribute","Nije moguće dodati atribut",module,Magento_Catalog
-"Please, specify attributes","Molimo, navesti atribute",module,Magento_Catalog
 Catalog,Katalog,module,Magento_Catalog
 "Manage Product Attributes","Upravljanje atributima proizvoda",module,Magento_Catalog
 "You deleted the product attribute.","Izbrisali ste atribut proizvoda.",module,Magento_Catalog
@@ -748,7 +725,6 @@ Products,Proizvodi,module,Magento_Catalog
 "A total of %1 record(s) have been deleted.","Ukupno %1 zapis(a) je uklonjeno.",module,Magento_Catalog
 "A total of %1 record(s) have been updated.","Ukupno %1 zapis(a) je promenjeno.",module,Magento_Catalog
 "Something went wrong while updating the product(s) status.","Došlo je do greške prilikom ažuriranja statusa proizvod(a).",module,Magento_Catalog
-"Unable to save product","Proizvod se ne može sačuvati",module,Magento_Catalog
 "You saved the product.","Sačuvali ste proizvod.",module,Magento_Catalog
 "SKU for product %1 has been changed to %2.","Šifra za proizvod %1 se promenila na %2.",module,Magento_Catalog
 "The image cannot be removed as it has been assigned to the other image role","Slika nije mogla biti uklonjena zato što je dodeljena drugom pravilu",module,Magento_Catalog
@@ -776,7 +752,6 @@ All,Sve,module,Magento_Catalog
 "Product is not loaded","Proizvod nije učitan",module,Magento_Catalog
 "Make sure the To Date is later than or the same as the From Date.","Uverite se da je do datum nakon ili isti kao i od datuma.",module,Magento_Catalog
 "Something went wrong while getting the image url.","Došlo je do greške prilikom snimanja url slike.",module,Magento_Catalog
-"The value of attribute ""%1"" must be unique.","Vrednost atributa „%1” mora biti jedinstven.",module,Magento_Catalog
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Podrazumevani listing sortiranja proizvoda ne postoji u listingu sortiranih dostupnih proizvoda.",module,Magento_Catalog
 "No layout updates","Nema raspored ažuriranja",module,Magento_Catalog
 "Products only","Samo proizvodi",module,Magento_Catalog
@@ -784,7 +759,6 @@ All,Sve,module,Magento_Catalog
 "Static block and products","Statični blok i proizvodi",module,Magento_Catalog
 "Please select a static block.","Molim vas izaberite statični blok.",module,Magento_Catalog
 "Could not save product ""%1"" with position %2 to category %3","Nije moguće sačuvati proizvod „%1” sa pozicije %2 u kategoriju %3",module,Magento_Catalog
-"Category does not contain specified product","Kategorija ne sadrži navedeni proizvod",module,Magento_Catalog
 "Could not save product ""%product"" with position %position to category %category","Nije moguće sačuvati proizvod „%p” sa pozicije %p u kategoriju %c",module,Magento_Catalog
 "Operation do not allow to move a parent category to any of children category","Operacija vam ne dozvoljava da premestite nadređenu kategoriju u bilo koju od kategorija dece",module,Magento_Catalog
 "Could not move category","Nije moguće premestiti kategoriju",module,Magento_Catalog
@@ -806,33 +780,24 @@ Discount,Popust,module,Magento_Catalog
 "Parent Product Thumbnail","Male sličice nadređenih proizvoda",module,Magento_Catalog
 Category,Kategorija,module,Magento_Catalog
 "%1 - %2","%1 x %2",module,Magento_Catalog
-"%1 was not found in algorithms","%1 se ne može naći u algoritmima",module,Magento_Catalog
 "%1 and above","%1 i iznad",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","Dužina šifre bi trebalo da bude najviše %1 karaktera.",module,Magento_Catalog
 "Please enter a valid number in this field.","Molimo unesite važeći broj u ovo polje.",module,Magento_Catalog
-"The image does not exist.","Ova slika ne postoji.",module,Magento_Catalog
+"The option instance type in options group is incorrect.","Instanca tipa proizvoda u grupi proizvoda je neispravna.",module,Magento_Catalog
 "The product instance type in options group is incorrect.","Instanca tipa proizvoda u grupi proizvoda je neispravna.",module,Magento_Catalog
 "The configuration item option instance in options group is incorrect.","Konfiguracija instance artikla u grupi opcija nije korektna.",module,Magento_Catalog
 "The configuration item instance in options group is incorrect.","Konfiguracija instance artikla u grupi opcija nije korektna.",module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.","Instanca KupiZahtev u grupi opcija nije korektna.",module,Magento_Catalog
-"The file options format is not valid.","Format datoteke sa opcijama nije ispravan.",module,Magento_Catalog
 "The file '%1' for '%2' has an invalid extension.","Datoteka '%1' za '%2' ima neispravnu ekstenziju.",module,Magento_Catalog
 "The maximum allowed image size for '%1' is %2x%3 px.","Maksimalna dozvoljena veličina slike za '%1' je %2x%3 px.",module,Magento_Catalog
 "The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","Datoteka '%1' koju ste poslali je veća od %2MB dozvoljeno za ovaj server.",module,Magento_Catalog
-"The file '%1' is empty. Please choose another one","Datoteka '%1' je prazna. Molim odabrati drugu",module,Magento_Catalog
 "The file '%1' is invalid. Please choose another one","Datoteka „%1” je nevažeća. Odaberite drugu",module,Magento_Catalog
-"Validation failed. Required options were not filled or the file was not uploaded.","Provera validacije nije uspela. Potrebne opcije neće biti popunjene ili datoteka nije poslata.",module,Magento_Catalog
-"The file you uploaded is larger than %1 Megabytes allowed by server","Poslata datoteka je veća od %1MB koliko dopušta ovaj server",module,Magento_Catalog
-"Option required.","Opcija je potrebna.",module,Magento_Catalog
-"The file is empty. Please choose another one","Datoteka '' je prazna. Molim odabrati drugu",module,Magento_Catalog
 "Some of the selected item options are not currently available.","Neke izabrane opcije stavke nisu trenutno dostupne.",module,Magento_Catalog
-"The text is too long.","Tekst je predug.",module,Magento_Catalog
 "Invalid attribute %fieldName = %fieldValue.","Nevažeći atribut %fieldName = %fieldValue.",module,Magento_Catalog
 "Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId.","Zahtevana radnja nije pronađena. Red ID: Šifra = %SKU, prodavnica ID: %storeId.",module,Magento_Catalog
 "Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Nevažeći atribut troška = %cost. Red ID: Šifra = %SKU, prodavnica ID: %storeId.",module,Magento_Catalog
 "Could not save Prices.","Nije bilo moguće sačuvati cene.",module,Magento_Catalog
 "Could not delete Prices","Nije bilo moguće izbrisati cene",module,Magento_Catalog
-"Requested product doesn't exist. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Traženi proizvod ne postoji. Red ID: Šifra = %SKU, prodavnica ID: %storeId, cena od: %priceFrom, cena do: %priceTo.",module,Magento_Catalog
 "Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Tražena prodavnica ne postoji. Red ID: Šifra = %SKU, prodavnica ID: %storeId, cena od: %priceFrom, cena do: %priceTo.",module,Magento_Catalog
 "Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Nevažeći atribut %label = %priceTo. Red ID: Šifra = %SKU, prodavnica ID: %storeId, cena od: %priceFrom, cena do: %priceTo.",module,Magento_Catalog
 "Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Nevažeći atribut cena = %price. Red ID: Šifra = %SKU, prodavnica ID: %storeId, cena od: %priceFrom, cena do: %priceTo.",module,Magento_Catalog
@@ -846,32 +811,17 @@ Category,Kategorija,module,Magento_Catalog
 "Invalid attribute Website ID = %websiteId. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Nevažeći atribut Web lokacija ID: %websiteId. Red ID: Šifra = %SKU, Web lokacija ID: %websiteId, grupa kupaca: %customerGroup, količina: %qty.",module,Magento_Catalog
 "We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Pronašli smo duplikat web lokacije, sloja cena, korisničke grupe i količine: Korisnička grupa = %customerGroup, Web lokacija ID = %websiteId, Količina = %qty. Row ID: Šifra = %SKU, Weblokacija ID: %websiteId, Groupa kupaca: %customerGroup, Količina: %qty.",module,Magento_Catalog
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ne postoji entitet sa grupom korisnika = %customerGroup. Row ID: Šifra= %SKU, Web lokacija ID: %websiteId, Grupa korisnika: %customerGroup, Količina: %qty.",module,Magento_Catalog
-"Invalid data provided for tier_price","Pogrešno postavljen datum za sloj_cena",module,Magento_Catalog
-"Could not save group price","Nije bilo moguće sačuvati grupu cena",module,Magento_Catalog
-"Please provide valid data","Molim obezbedite ispravan datum",module,Magento_Catalog
-"Values of following attributes are invalid: %1","Vrednosti sledećih atributa su neispravni: %1",module,Magento_Catalog
-"The file upload failed.","Došlo je do greške pri slanju datoteke.",module,Magento_Catalog
-"The product has required options.","Proizvod je zahtevao opcije.",module,Magento_Catalog
 "Something went wrong while processing the request.","Došlo je do greške prilikom obrade zahteva.",module,Magento_Catalog
 "Not Visible Individually","Nije vidljivo individualno",module,Magento_Catalog
 Search,Pretraga,module,Magento_Catalog
 "Catalog, Search","Katalog, pretraga",module,Magento_Catalog
 "Something went wrong while removing products from the websites.","Došlo je do greške prilikom uklanjanja proizvoda sa web lokacija.",module,Magento_Catalog
 "Something went wrong while adding products to websites.","Došlo je do greške pri dodavanju proizvoda na web lokacije.",module,Magento_Catalog
-"Group with id ""%1"" does not exist.","Grupa sa id %1 ne postoji.",module,Magento_Catalog
-"Attribute group that contains system attributes can not be deleted","Atribut grupe koji sadrži atribute sistema ne može biti obrisan",module,Magento_Catalog
-"Collection provider is not registered","Pružalac kolekcije nije registrovan",module,Magento_Catalog
-"Unknown link type: %1","Nepoznata tip veze: %1",module,Magento_Catalog
-"Provided link type ""%1"" does not exist","Dati link tipa ""%1"" ne postoji",module,Magento_Catalog
-"Invalid data provided for linked products","Pogrešini podataci za povezane proizvode",module,Magento_Catalog
 "Product with SKU '%1' is not linked to product with SKU '%2'","Proizvod sa šifrom „%1” nije povezan sa proizvodom sa šifrom „%2”",module,Magento_Catalog
-"Requested product does not support images.","Traženi proizvod ne podržava slike.",module,Magento_Catalog
-"Product with SKU ""%1"" does not exist","Proizvod sa šifrom %1 ne postoji",module,Magento_Catalog
 "Invalid product data: %1","Nevažeći podatak proizvoda: %1",module,Magento_Catalog
 "Database connection error","Greška u povezivanju sa bazom podataka",module,Magento_Catalog
 "Database deadlock found when trying to get lock","Greška pri zaključavanju baze prilikom pokušaja zaključavanja",module,Magento_Catalog
 "Database lock wait timeout exceeded","Prekoračeno vreme u čekanju na zaključavanju baze",module,Magento_Catalog
-"Unable to remove product %1","Nije moguće ukloniti proizvod %1",module,Magento_Catalog
 "There are not websites for assign to product","Ne postoje Web lokacije za dodeljivanje proizvoda",module,Magento_Catalog
 "Could not assign product ""%1"" to websites ""%2""","Nije mogao da dodeliti proizvod „%1” web lokaciji „%2”",module,Magento_Catalog
 "Could not save product ""%1"" with websites %2","Nije moguće sačuvati proizvod „%1” sa web lokacije %2",module,Magento_Catalog
@@ -947,6 +897,11 @@ Groups,Grupe,module,Magento_Catalog
 "Double click on a group to rename it.","Dvaput kliknite na grupu da biste je preimenovali.",module,Magento_Catalog
 "Unassigned Attributes","Nedodeljeni atribute",module,Magento_Catalog
 "A name is required.","Ime je obavezno.",module,Magento_Catalog
+"Please enter a new group name.","Unesite ime nove grupe.",module,Magento_Catalog
+"An attribute group named ""/name/"" already exists.","Jedan atribut grupa pod nazivom „/ ime /” već postoji.",module,Magento_Catalog
+"Custom Options","Prilagodljive opcije",module,Magento_Catalog
+"This is a required option.","Ovo polje je neophodno.",module,Magento_Catalog
+Qty,Kol,module,Magento_Catalog
 "Hide from Product Page","Sakriti od proizvodne stranice",module,Magento_Catalog
 "Product Alerts","Alarm proizvoda",module,Magento_Catalog
 "Allow Multiple Boxes for Shipping","Dopustiti pakovanje u više kutija radi isporuke",module,Magento_Catalog
@@ -1001,26 +956,62 @@ Tax,Porez,module,Magento_Quote
 "Be the first to review this product","Ocenite ovaj proizvod",module,Magento_Review
 "We can't convert a rate from ""%1-%2"".","Ne može da se konvertuje po stopi od „%1-%2”.",module,Magento_Ups
 "It's time to <a href=""%1"">change your password</a>.","Vreme je da <a href=""%1""> promenite vašu lozinku</a>.",module,Magento_User
+"Now Shopping by","Sada kupiti preko",theme,frontend/Magento/luma
 Previous,Prethodni,theme,frontend/Magento/luma
-Remove,Ukloni,theme,frontend/Magento/luma
+Remove,Uklonite,theme,frontend/Magento/luma
 "Remove This Item","Ukloni ovu stavku",theme,frontend/Magento/luma
+"Shop By","Kupiti po",theme,frontend/Magento/luma
 "Clear All","Očisti sve",theme,frontend/Magento/luma
+"Shopping Options","Opcije kupovine",theme,frontend/Magento/luma
 "Place Order","Mesta za porudžbinu",module,Magento_Authorizenet
 "Credit Card Information","Informacije o kreditnoj kartici",module,Magento_Braintree
 "What is this?","Šta je ovo?",module,Magento_Braintree
 "Save for later use.","Sačuvati za kasniju upotrebu.",module,Magento_Braintree
 "Place Order","Postavite porudžbinu",module,Magento_Braintree
 "Attention: Captcha is case sensitive.","Pažnja: Captcha je osetljiva na mala i velika slova.",module,Magento_Captcha
-Email:,E-pošta:,theme,frontend/Magento/luma
+"Welcome to %store_name","Dobrodošli u %store_name",theme,frontend/Magento/luma
+"%name,","%naziv,",theme,frontend/Magento/luma
+"Welcome to %store_name.","Dobrodošli u %store_name.",theme,frontend/Magento/luma
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Da biste se prijavili na naš sajt, koristite ove akreditive tokom provere ili na stranici <a href=""%customer_url"">Moj račun</a>:",theme,frontend/Magento/luma
+Email:,E-mail:,theme,frontend/Magento/luma
 Password:,Lozinka:,theme,frontend/Magento/luma
 "Password you set when creating account","Lozinka koju ste postavili prilikom kreiranja naloga",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Zaboravili ste lozinku svog naloga? Kliknite <a href=""%reset_url""> ovde</a> da biste poništili to.",theme,frontend/Magento/luma
+"When you sign in to your account, you will be able to:","Kada se prijavite na svoj nalog, moći ćete da:",theme,frontend/Magento/luma
+"Quick Checkout","Brza provera",theme,frontend/Magento/luma
+"Proceed through checkout faster","Nastavite brže kroz proveru",theme,frontend/Magento/luma
 "Order Status","Status porudžbine",theme,frontend/Magento/luma
+"Check the status of orders","Proverite status porudžbine",theme,frontend/Magento/luma
+"Manage Addresses","Upravljajte adresama",theme,frontend/Magento/luma
+"Store alternative addresses","Skladištenje alternativnih adresa",theme,frontend/Magento/luma
+"For shipping to multiple family members and friends","Za isporuku više članova porodice i prijateljima",theme,frontend/Magento/luma
 "Order History","Istorija porudžbine",theme,frontend/Magento/luma
 "View past orders","Vidi sve porudžbine",theme,frontend/Magento/luma
 Footer,Podnožje,theme,frontend/Magento/luma
-"About Us","O nama",theme,frontend/Magento/luma
-"Customer Service","Korisnički servis",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Radno vreme:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
+"Credit memo for your %store_name order","Profaktura za vašu %store_name porudžbinu",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Hvala vam za porudžbinu %store_name.",theme,frontend/Magento/luma
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Možete da proverite status Vaše porudžbine prijavljivanjem <a href=""%account_url"">u Vaš nalog</a>.",theme,frontend/Magento/luma
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Ako imate pitanja o porudžbini, možete nam pisati na <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","Vaša profaktura #%creditmemo_id za Porudžbinu #%order_id",theme,frontend/Magento/luma
+"Billing Info","Informacije o plaćanju",theme,frontend/Magento/luma
+"Shipping Info","Informacije o isporuci",theme,frontend/Magento/luma
+"Payment Method","Način plaćanja",theme,frontend/Magento/luma
+"Shipping Method","Način Dostave",theme,frontend/Magento/luma
+"Update to your %store_name credit memo","Ažurirajate Vašu %store_name profakturu",theme,frontend/Magento/luma
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Vaša porudžbina #%increment_id je ažurirana sa statusom <strong>%order_status</strong>.",theme,frontend/Magento/luma
+"Invoice for your %store_name order","Faktura za Vašu %store_name porudžbinu",theme,frontend/Magento/luma
+"Your Invoice #%invoice_id for Order #%order_id","Vaša faktura #%invoice_id za Porudžbinu #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name invoice","Ažurirajte Vašu %store_name fakturu",theme,frontend/Magento/luma
+"Your %store_name order confirmation","Potvrda %store_name Vaše porudžbine",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","Kada Vaša porudžbina bude poslata, poslaćemo Vam broj za praćenje porudžbine.",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","Vaša porudžbina <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
+"Placed on <span class=""no-link"">%created_at</span>","Postavljeno na <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
+"Update to your %store_name order","Ažurirajte Vašu %store_name porudžbinu",theme,frontend/Magento/luma
+"Your %store_name order has shipped","Vaša %store_name porudžbina je poslata",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Vaša potvrda o isporuci je ispod. Hvala Vam još jednom za Vaše poslovanje.",theme,frontend/Magento/luma
+"Your Shipment #%shipment_id for Order #%order_id","Isporuka za #%shipment_id za porudžbinu #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name shipment","Ažurirano na Vašoj %store_name pošiljci",theme,frontend/Magento/luma
 "Sorry, but something went wrong. Please contact the seller.","Žao nam je, ali nešto je krenulo pogrešno. Molim kontaktirati prodavca.",module,Magento_Authorizenet
 "We could not detect a size.","Nismo mogli otkriti veličinu.",module,Magento_Backend
 "This payment is not available","Ovo plaćanje nije raspoloživo",module,Magento_Braintree
@@ -1093,7 +1084,6 @@ Developer,Programеr,module,Magento_Backend
 Debug,"Otklanjanje grešaka",module,Magento_Backend
 "Enabled Template Path Hints for Storefront","Omogućena putanja šablona za oznake na izlogu",module,Magento_Backend
 "Enabled Template Path Hints for Admin","Omogućena putanja šablona za oznake za admin-a",module,Magento_Backend
-"Add Block Names to Hints","Dodavanje blok imena za oznake",module,Magento_Backend
 "Template Settings","Podešavanja šablona",module,Magento_Backend
 "Allow Symlinks","Dozvoli Symlinks",module,Magento_Backend
 "Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Upozorenje! Omogućavanje ove funkcije se ne preporučuje u proizvodnim okruženjima jer predstavlja potencijalni rizik po bezbednost.",module,Magento_Backend
@@ -1201,7 +1191,6 @@ Tags,Oznake,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 greška</h1><p>Stranica nije pronađena.</p>",module,Magento_Backend
 "Community Edition","Zajedničko izdanje",module,Magento_Backend
 "Default Theme","Podrazumevane teme",module,Magento_Backend
-"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Ako ni jedna vrednost nije navedena, koristi se podrazumevana. Podrazumevana sistemska vrednost se može promeniti od strane treće strane proizvođača.",module,Magento_Backend
 "Applied Theme","Primenjena tema",module,Magento_Backend
 "Design Rule","Pravilo dizajna",module,Magento_Backend
 "User Agent Rules","Pravila korisničkih agenata",module,Magento_Backend
